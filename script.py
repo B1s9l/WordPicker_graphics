@@ -6,6 +6,7 @@ import time
 numwords = 3   # Change this to the number of words you want to pick
 
 file_path = "wordlist.txt"  # Change this to the path of your text file
+# file_path = iloveyou.txt # Uncomment this line and set numwords to 3
 
 
 ### Clear console method
@@ -74,7 +75,4 @@ for word in picked_words:
 
 
 print_grid(random_grid)
-
-ab = ["a", "b", "c"]
-print()
     
